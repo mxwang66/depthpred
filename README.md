@@ -27,7 +27,7 @@ On Linux for example:
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 2. Install Miniconda3. Please follow the default installation settings. Restart the shell after installation.\
-bash Miniconda3-latest-Linux-x86_64.sh\
+bash Miniconda3-latest-Linux-x86_64.sh
 
 3. Create and activate new python environment\
 conda create --name tf1\
