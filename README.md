@@ -27,15 +27,15 @@ On Linux for example:
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
 2. Install Miniconda3\
-bash Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh\
 Please follow the default installation settings. Restart the shell after installation. 
 
 3. Create and activate new python environment\
-conda create --name tf1
+conda create --name tf1\
 conda activate tf1
 
 4. Install required packages\
-conda install python=3.7.6
-conda install -c conda-forge docopt=0.6.2
-conda install -c anaconda tensorflow-gpu=1.15.0
+conda install python=3.7.6\
+conda install -c conda-forge docopt=0.6.2\
+conda install -c anaconda tensorflow-gpu=1.15.0\
 conda install -c conda-forge matplotlib=3.2.2
