@@ -1,0 +1,22 @@
+{
+    "batch_size": 999,
+    "n_epochs": 1300,            
+    "learning_rate": 0.0001,
+    "clamp_gradient_norm": 1.0,
+    "hidden_size": 128,
+    "weight_decay": 0,
+    "output_hid_sizes": [256,128],
+    "seed": 840920,
+    "dropout_kp": 0.8,
+    "global_feature_list": ["nG<x t^>", "nG[x]{t^*}", "nG[x t^]", "T"],
+    "global_feature_mask": {"nG<x t^>":1, "nG[x]{t^*}":1, "nG[x t^]":1, "T":1},
+    "sequence_mask": 1,
+    "toehold_bit_mask": 0,
+    "open_prob_mask": 1,
+    "protected_prob_mask": 0,
+    "local_feature_weight": 1.0,
+    "bidirectional": true,
+    "symmetric": true,
+    "share_fwd_bwd": false,
+    "heteroskedastic": false
+}
