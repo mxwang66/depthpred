@@ -2,7 +2,7 @@ Description
 ------------------------
 Python3 code and data for the paper "A Deep Learning Model for Predicting NGS Sequencing Depth from DNA Sequence"
 
-Each of the three folders ("NGS_human_SNP", "NGS_synthetic" and "HYB_DSP") contains a seperate copy of the python code of our deep learning model, as well as the corresponding dataset for training and validation (NGS human SNP panel, NGS synthetic panel and DNA strand displacement/hybridization). For details about running the code and interpreting the results, please refer to the "README.txt" inside each folder. 
+Each of the three compressed folders ("NGS_human_SNP", "NGS_synthetic" and "HYB_DSP") contains a seperate copy of the python code of our deep learning model, as well as the corresponding dataset for training and validation (NGS human SNP panel, NGS synthetic panel and DNA strand displacement/hybridization). For details about running the code and interpreting the results, please refer to the "README.txt" inside each folder. 
 
 We also provide the raw NGS data in the "Raw NGS data" folder, and the raw fluorescence data for calculated kinetics rate constants in the "Raw fluorescence data" folder. 
 
