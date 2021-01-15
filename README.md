@@ -22,7 +22,7 @@ For the SNP panel, the training time for each epoch is roughly 10 seconds while 
 Installation
 ------------------------
 It is recommended to use Anaconda/Miniconda to install python and all the required packages. The installation process would take a few minutes. 
-On Linux for example. 
+On Linux for example: 
 1. Get the latest Miniconda3 for Linux 64-bit:
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
