@@ -24,17 +24,17 @@ Installation
 It is recommended to use Anaconda/Miniconda to install python and all the required packages. The installation process would take a few minutes. 
 On Linux for example: 
 1. Get the latest Miniconda3 for Linux 64-bit:
-#wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 
-2. Install Miniconda3:
+2. Install Miniconda3\
 bash Miniconda3-latest-Linux-x86_64.sh
 Please follow the default installation settings. Restart the shell after installation. 
 
-3. Create new python environment and activate
+3. Create and activate new python environment\
 conda create --name tf1
 conda activate tf1
 
-4. Install required packages
+4. Install required packages\
 conda install python=3.7.6
 conda install -c conda-forge docopt=0.6.2
 conda install -c anaconda tensorflow-gpu=1.15.0
