@@ -1,6 +1,6 @@
 Description
 ------------------------
-Python3 code and data for the paper "A Deep Learning Model for Predicting NGS Sequencing Depth from DNA Sequence".
+Python3 code and data for the paper "A Deep Learning Model for Predicting Next-Generation Sequencing Depth from DNA Sequence".
 
 Each of the three compressed folders ("NGS_human_SNP.zip", "NGS_synthetic.zip" and "HYB_DSP.zip") contains a seperate copy of the python code of our deep learning model, as well as the corresponding dataset for training and validation (NGS human SNP panel, NGS synthetic panel and DNA strand displacement/hybridization). For details about running the code and interpreting the results, please refer to the "README.txt" inside each folder. 
 
